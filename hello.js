@@ -1,4 +1,4 @@
-const hello = () => "Hello World Facu desde casa";
+const hello = () => "Hello World";
 console.log(hello());
 exports.hello = hello;
 
