@@ -27,7 +27,7 @@ jobs:
         with:
           args: --acl public-read --follow-symlinks --delete
         env:
-          AWS_S3_BUCKET: ${{ 'arn:aws:s3:::rafik-mit' }}
+          AWS_S3_BUCKET: ${{ 'rafik-mit' }}
           AWS_ACCESS_KEY_ID: ${{ 'AKIA3LET5ZQQ7KMURB2D' }}
           AWS_SECRET_ACCESS_KEY: ${{ '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' }}
           AWS_REGION: "us-east-1" # optional: defaults to us-east-1
